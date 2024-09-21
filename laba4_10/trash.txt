@@ -1,0 +1,81 @@
+var_s = 5 sum 5 sub 2;
+var_s2 = 5 sum 5 sub 2;
+var_s3 = 5 sum var_s2 sub 2; #qweeqweqe
+#BREAKPOIN
+var_s3 output; [
+w
+]
+var_s4 input;
+var_s4 output;
+var_s4 output;
+var_s5 output;
+
+------------------------------------------------------------------------------------------------------------------------
+
+5 sum 5 sub 2 = var_s;
+5 sum 5 sub 2 = var_s2;
+5 sum var_s2 sub 2 = var_s3; #qweeqweqe
+#BREAKPOIN
+var_s3 output; [
+w
+]
+var_s4 input;
+var_s4 output;
+var_s4 output;
+var_s5 output;
+
+========================================================================================================================
+
+var_s = (5,(5,2)sub)sum;
+var_s2 = (5,(5,2)sub)sum;
+var_s3 = (5,(var_s2,2)sub)sum; #qweeqweqe
+#BREAKPOIN
+(var_s3)output; [
+w
+]
+(var_s4)input;
+(var_s4)output;
+(var_s4)output;
+(var_s5)output;
+
+------------------------------------------------------------------------------------------------------------------------
+
+(5,(5,2)sub)sum = var_s;
+(5,(5,2)sub)sum = var_s2;
+(5,(var_s2,2)sub)sum = var_s3; #qweeqweqe
+#BREAKPOIN
+(var_s3)output; [
+w
+]
+(var_s4)input;
+(var_s4)output;
+(var_s4)output;
+(var_s5)output;
+
+========================================================================================================================
+
+var_s = sum(5,sub(5,2));
+var_s2 = sum(5,sub(5,2));
+var_s3 = sum(var_s2,sub(5,2)); #qweeqweqe
+#BREAKPOIN
+output(var_s3); [
+w
+]
+input(var_s4);
+output(var_s4);
+output(var_s4);
+output(var_s5);
+
+------------------------------------------------------------------------------------------------------------------------
+
+sum(5,sub(5,2)) = var_s;
+sum(5,sub(5,2)) = var_s2;
+sum(var_s2,sub(5,2)) = var_s3; #qweeqweqe
+#BREAKPOIN
+output(var_s3); [
+w
+]
+input(var_s4);
+output(var_s4);
+output(var_s4);
+output(var_s5);
